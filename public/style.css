@@ -1,0 +1,87 @@
+body{
+    background-image: url('./pictures/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html,body{
+    min-height: 100%;
+}
+.end{
+    margin-bottom: 0em;
+}
+.white{
+    color: white;
+}
+.green{
+    color: green;
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+}
+.size{
+    font-size: 1.5em;
+}
+.bg{
+    background: #bd9436;
+     border-radius: 5%;
+     padding:2em; 
+}
+.pic{
+    width: 5em;
+    height: 8em;
+}
+.color{
+    color: #777;
+}
+.slider{
+    width: 90em;
+    height: 30em;
+    border: 3px solid red;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.img{
+    position: absolute;
+    width: 90em;
+    height: 30em;
+    animation: r 15s infinite;
+    -webkit-animation: r 15s infinite;
+}
+@-webkit-keyframes r{
+    10%{opacity:1}
+    50%{opacity:0}
+    
+}
+img:nth-child(0){animation-delay: 0s;-webkit-animation-delay: 0s }
+img:nth-child(1){animation-delay: 5s; -webkit-animation-delay: 10s}
+img:nth-child(2){animation-delay: 10s;-webkit-animation-delay: 15s}
+.row{
+    background: rgba(0,0,0,0.3);
+   font-family: 'Lemonada', cursive;
+}
+ul{
+    list-style: none;
+     
+}
+li{
+    float: left;
+    text-decoration: none;
+    padding: 2em 2em;
+    text-align: center;
+    line-height: 2em;
+    
+    
+       
+}
+ul li:hover{
+    background: tomato;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: floralwhite
+}
+a{
+    color: #e60a0a;
+    
+}
